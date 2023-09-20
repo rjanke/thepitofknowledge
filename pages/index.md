@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "The Pit Of Knowledge"
+  name: "The Pit of Knowledge"
   text: "My blog."
-  tagline: My great project tagline
+  tagline: These are some test changes.
   actions:
     - theme: brand
       text: Markdown Examples

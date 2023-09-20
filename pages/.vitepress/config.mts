@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "The Pit Of Knowledge",
+  title: "The Pit of Knowledge",
   description: "My blog.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
