@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: vitepress
+    command: npm install && npm run docs:dev
+    ports:
+      - 5173:5173
+    volumes:
+      - .:/app
