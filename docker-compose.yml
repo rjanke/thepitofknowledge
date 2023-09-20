@@ -3,7 +3,7 @@ services:
     build: .
     container_name: vitepress
     # `-- --host` allows host computer to access vitepress running in container at localhost.
-    # command: [ "npm", "run", "docs:dev", "--", "--host"]
+    command: [ "npm", "run", "docs:dev", "--", "--host"]
     ports:
       - '5173:5173'
     volumes:
