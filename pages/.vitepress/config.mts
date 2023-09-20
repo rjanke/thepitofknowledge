@@ -1,9 +1,15 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
+// Config example: https://github.com/vuejs/vitepress/blob/main/docs/.vitepress/config.ts
 export default defineConfig({
+  lang: "en-US",
   title: "The Pit of Knowledge",
   description: "My blog.",
+
+  lastUpdated: true,
+  cleanUrls: true,
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,7 +28,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/rjanke/thepitofknowledge' }
     ]
   }
 })
