@@ -2,7 +2,7 @@
 head:
   - - meta
     - name: og:type
-    - content: website
+      content: website
 ---
 
 ![The Pit of Knowledge, a programming blog.](/thepitofknowledge-header.webp)
