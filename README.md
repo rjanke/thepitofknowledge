@@ -9,6 +9,11 @@ docker-compose up -d
 
 The site should be available at http://localhost:5173.
 
+To stop, run:
+```bash
+docker-compose down
+```
+
 ## Useful Docker Commands
 ### Access the container directly.
 ```bash
