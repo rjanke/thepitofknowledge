@@ -1,5 +1,4 @@
 import { DefaultTheme, defineConfig } from 'vitepress'
-import { ssrIncludeBooleanAttr } from 'vue/server-renderer'
 
 // Docs: https://vitepress.dev/reference/site-config
 // Example config: https://github.com/vuejs/vitepress/blob/main/docs/.vitepress/config.ts
@@ -24,12 +23,13 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/thepitofknowledge-icon.svg' }],
     ['meta', { name: 'theme-color', content: '#242222' }],
-    ['meta', { name: 'og:type', content: 'website' }],
-    ['meta', { name: 'og:locale', content: 'en' }],
     ['meta', { name: 'og:site_name', content: 'The Pit of Knowledge' }],
+    ['meta', { name: 'og:title', content: 'Falling Down' }],
+    ['meta', { name: 'og:type', content: 'article' }],
     ['meta',
       { name: 'og:image', content: 'https://thepitofknowledge.com/thepitofknowledge-og.jpg' }
     ],
+    ['meta', { name: 'og:url', content: 'https://thepitofknowledge.com/' }],
     ['meta',
       {
         name: 'twitter:image',
@@ -95,7 +95,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       base: '/godot/',
       items: [
-        { text: 'Signals - Between Scenes & Reusable - Tutorial', link: 'signals-between-scenes-reusable-tutorial' },
+        { text: 'Using Signals Between Scenes', link: 'using-signals-between-scenes' },
       ]
     },
     {
@@ -127,6 +127,6 @@ function sidebar(): DefaultTheme.SidebarItem[] {
         { text: 'Automated website logins', link: '' }
       ]
     },
-    { text: 'Vitepress Reference', link: '' }
+    { text: 'VitePress Reference', link: 'vitepress-reference' }
   ]
 }
