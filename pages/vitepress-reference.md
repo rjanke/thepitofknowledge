@@ -1,3 +1,6 @@
-# VitePress Reference
+---
+description: A reference for all things related to VitePress page authoring.
+---
 
-This is more of a personal reference.
+# VitePress Reference
+{{ $frontmatter.description }}

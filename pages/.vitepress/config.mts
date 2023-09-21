@@ -24,12 +24,10 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/thepitofknowledge-icon.svg' }],
     ['meta', { name: 'theme-color', content: '#242222' }],
     ['meta', { name: 'og:site_name', content: 'The Pit of Knowledge' }],
-    ['meta', { name: 'og:title', content: 'Falling Down' }],
     ['meta', { name: 'og:type', content: 'article' }],
     ['meta',
       { name: 'og:image', content: 'https://thepitofknowledge.com/thepitofknowledge-og.jpg' }
     ],
-    ['meta', { name: 'og:url', content: 'https://thepitofknowledge.com/' }],
     ['meta',
       {
         name: 'twitter:image',
