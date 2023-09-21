@@ -1,7 +1,7 @@
 # About
 This is my personal blog site. It's built on [VitePress](https://vitepress.dev/), GitHub Pages, and Docker for local development.
 
-# Local Development
+## Local Development
 In the root directory, run:
 ```bash
 docker-compose up -d
