@@ -20,6 +20,10 @@ docker-compose down
 docker exec -it vitepress /bin/bash
 ```
 ### Rebuild Docker Container
+Be sure to stop any running containers first.
+```bash
+docker-compose down
+```
 ```bash
 docker-compose build --no-cache
 ```
