@@ -1,4 +1,5 @@
-import { defineConfig } from 'vitepress'
+import { DefaultTheme, defineConfig } from 'vitepress'
+import { ssrIncludeBooleanAttr } from 'vue/server-renderer'
 
 // https://vitepress.dev/reference/site-config
 // Config example: https://github.com/vuejs/vitepress/blob/main/docs/.vitepress/config.ts
@@ -9,6 +10,8 @@ export default defineConfig({
 
   lastUpdated: true,
   cleanUrls: true,
+
+  // TODO: add sitemap generation.
 
   // Configure HTML <head></head> tags.
   head: [
@@ -36,6 +39,12 @@ export default defineConfig({
       height: 50
     },
 
+    sidebar: {
+      '/': {
+        base: '/', items: sidebar()
+      }
+    },
+
     externalLinkIcon: true,
 
     editLink: {
@@ -43,7 +52,7 @@ export default defineConfig({
       text: 'Edit this page on GitHub'
     },
 
-    // Last updated: Sep 21, 2023, 9:15 AM
+    // Example (Last updated: Sep 21, 2023, 9:15 AM)
     lastUpdated: {
       formatOptions: {
         dateStyle: 'medium',
@@ -61,3 +70,41 @@ export default defineConfig({
     ]
   }
 })
+
+function sidebar(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'Godot',
+      collapsed: true,
+      items: 
+      [
+        { text: 'Signals are cool', link: '' },
+      ]
+    },
+    {
+      text: 'Linux',
+      collapsed: true,
+      items:
+      [
+        { text: 'Cron Jobs', link: '' }
+      ]
+    },
+    {
+      text: 'PHP',
+      collapsed: true,
+      items:
+      [
+        { text: 'Local PHP Dev', link: '' }
+      ]
+    },
+    {
+      text: 'Python',
+      collapsed: true,
+      items:
+      [
+        { text: 'Automated website logins', link: '' }
+      ]
+    },
+    { text: 'Vitepress Reference', link: ''}
+  ]
+}

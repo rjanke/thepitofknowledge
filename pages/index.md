@@ -1,4 +1,11 @@
-![The Pit of Knowledge, a programming blog.](/thepitofknowledge.webp)
+---
+head:
+  - - meta
+    - name: description
+      content: A programming blog.
+---
+
+![The Pit of Knowledge, a programming blog.](/thepitofknowledge-header.webp)
 
 # Welcome
 As the common phrase goes, "the more you learn, the less you know".
