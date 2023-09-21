@@ -23,7 +23,3 @@ docker exec -it vitepress /bin/bash
 ```bash
 docker-compose build --no-cache
 ```
-
-# TODO
-- Research license.
-- Address contributing.
