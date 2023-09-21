@@ -30,6 +30,13 @@ export default defineConfig({
       text: 'Edit this page on GitHub'
     },
 
+    lastUpdated: {
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'short'
+      }
+    },
+
     // https://vitepress.dev/reference/default-theme-search
     search: {
       provider: 'local'
