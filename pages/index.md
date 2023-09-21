@@ -7,7 +7,7 @@ head:
 
 ![The Pit of Knowledge, a programming blog.](/thepitofknowledge-header.webp)
 
-# Welcome
+## Welcome
 As the common phrase goes, "the more you learn, the less you know".
 
 My friends and I like to refer to this phenomena as, *the pit of knowledge*. It's both beautiful and terrifying - it just keeps *going*.

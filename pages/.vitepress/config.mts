@@ -1,19 +1,26 @@
 import { DefaultTheme, defineConfig } from 'vitepress'
 import { ssrIncludeBooleanAttr } from 'vue/server-renderer'
 
-// https://vitepress.dev/reference/site-config
-// Config example: https://github.com/vuejs/vitepress/blob/main/docs/.vitepress/config.ts
+// Docs: https://vitepress.dev/reference/site-config
+// Example config: https://github.com/vuejs/vitepress/blob/main/docs/.vitepress/config.ts
 export default defineConfig({
   lang: 'en-US',
   title: 'The Pit of Knowledge',
   description: 'A programmnig blog.',
 
+  // Docs: https://vitepress.dev/reference/site-config#lastupdated
   lastUpdated: true,
+
+  // Docs: https://vitepress.dev/reference/site-config#cleanurls
   cleanUrls: true,
 
-  // TODO: add sitemap generation.
+  // Docs: https://vitepress.dev/guide/sitemap-generation
+  sitemap: {
+    hostname: 'https://thepitofknowledge.com'
+  },
 
   // Configure HTML <head></head> tags.
+  // Docs: https://vitepress.dev/reference/site-config#head
   head: [
     ['link', { rel: 'icon', href: '/thepitofknowledge-icon.svg' }],
     ['meta', { name: 'theme-color', content: '#242222' }],
@@ -31,7 +38,7 @@ export default defineConfig({
     ],
   ],
 
-  // https://vitepress.dev/reference/default-theme-config
+  // Docs: https://vitepress.dev/reference/default-theme-config
   themeConfig: {
     logo: {
       src: '/thepitofknowledge-icon.svg',
@@ -45,14 +52,22 @@ export default defineConfig({
       }
     },
 
+    // Docs: https://vitepress.dev/reference/default-theme-config#outline
+    outline: {
+      level: 'deep'
+    },
+
+    // Docs: https://vitepress.dev/reference/default-theme-config#externallinkicon
     externalLinkIcon: true,
 
+    // Docs: https://vitepress.dev/reference/default-theme-config#editlink
     editLink: {
       pattern: 'https://github.com/rjanke/thepitofknowledge/edit/main/pages/:path',
       text: 'Edit this page on GitHub'
     },
 
-    // Example (Last updated: Sep 21, 2023, 9:15 AM)
+    // Outputs: "Last updated: Sep 21, 2023, 9:15 AM"
+    // Docs: https://vitepress.dev/reference/default-theme-config#lastupdated
     lastUpdated: {
       formatOptions: {
         dateStyle: 'medium',
@@ -60,51 +75,58 @@ export default defineConfig({
       }
     },
 
-    // https://vitepress.dev/reference/default-theme-search
+    // Docs: https://vitepress.dev/reference/default-theme-search
     search: {
       provider: 'local'
     },
 
+    // Docs: https://vitepress.dev/reference/default-theme-config#sociallinks
     socialLinks: [
       { icon: 'github', link: 'https://github.com/rjanke/thepitofknowledge' }
     ]
   }
 })
 
+// Sidebar menu links.
 function sidebar(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: 'Godot',
       collapsed: true,
-      items: 
-      [
-        { text: 'Signals are cool', link: '' },
+      base: '/godot/',
+      items: [
+        { text: 'Signals - Between Scenes & Reusable - Tutorial', link: 'signals-between-scenes-reusable-tutorial' },
       ]
     },
     {
       text: 'Linux',
       collapsed: true,
-      items:
-      [
-        { text: 'Cron Jobs', link: '' }
+      base: '/linux/',
+      items: [
+        { text: 'Cron Jobs', 
+        collapsed: true,
+        items: [
+          { text: 'test nested', link: ''}
+        ]
+      }
       ]
     },
     {
       text: 'PHP',
       collapsed: true,
-      items:
-      [
+      base: '/php/',
+      items: [
         { text: 'Local PHP Dev', link: '' }
       ]
     },
     {
       text: 'Python',
       collapsed: true,
-      items:
-      [
+      base: '/python/',
+      items: [
         { text: 'Automated website logins', link: '' }
       ]
     },
-    { text: 'Vitepress Reference', link: ''}
+    { text: 'Vitepress Reference', link: '' }
   ]
 }
