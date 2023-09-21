@@ -5,14 +5,27 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'en-US',
   title: 'The Pit of Knowledge',
-  description: 'My blog.',
+  description: 'A programmnig blog.',
 
   lastUpdated: true,
   cleanUrls: true,
 
   // Configure HTML <head></head> tags.
   head: [
-    ['link', { rel: 'icon', href: '/thepitofknowledge-icon.svg' }]
+    ['link', { rel: 'icon', href: '/thepitofknowledge-icon.svg' }],
+    ['meta', { name: 'theme-color', content: '#242222' }],
+    ['meta', { name: 'og:type', content: 'website' }],
+    ['meta', { name: 'og:locale', content: 'en' }],
+    ['meta', { name: 'og:site_name', content: 'The Pit of Knowledge' }],
+    ['meta',
+      { name: 'og:image', content: 'https://thepitofknowledge.com/thepitofknowledge-og.jpg' }
+    ],
+    ['meta',
+      {
+        name: 'twitter:image',
+        content: 'https://thepitofknowledge.com/thepitofknowledge-og.jpg'
+      }
+    ],
   ],
 
   // https://vitepress.dev/reference/default-theme-config
@@ -30,6 +43,7 @@ export default defineConfig({
       text: 'Edit this page on GitHub'
     },
 
+    // Last updated: Sep 21, 2023, 9:15 AM
     lastUpdated: {
       formatOptions: {
         dateStyle: 'medium',
