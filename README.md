@@ -1,5 +1,5 @@
 # About
-This is my personal blog site. It's built on [VitePress](https://vitepress.dev/), GitHub Pages, and Docker for local development.
+This is my personal blog site. It's built on [VitePress](https://vitepress.dev/), GitHub Pages, and uses Docker for local development.
 
 ## Local Development
 In the root directory, run:
