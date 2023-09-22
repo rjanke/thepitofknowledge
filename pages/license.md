@@ -43,7 +43,7 @@ For more information, please refer to <https://unlicense.org>
 ```
 
 ## VitePress Default Theme
-The Project's site theme is based on the VitePress default theme.
+The site's theme is based on the VitePress default theme.
 
 ```
 MIT License
