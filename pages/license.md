@@ -42,8 +42,9 @@ OTHER DEALINGS IN THE SOFTWARE.
 For more information, please refer to <https://unlicense.org>
 ```
 
-## VitePress Default Theme
-The site's theme is based on the VitePress default theme.
+## VitePress Default Theme & References
+This site's theme is based on the VitePress default theme and direct references from
+VitePress documentation are made on the page, VitePress Reference.
 
 ```
 MIT License
