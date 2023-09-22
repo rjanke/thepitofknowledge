@@ -60,8 +60,8 @@ export default defineConfig({
 
     // Docs: https://vitepress.dev/reference/default-theme-config#editlink
     editLink: {
-      pattern: 'https://github.com/rjanke/thepitofknowledge/edit/main/pages/:path',
-      text: 'Edit this page on GitHub'
+      pattern: 'https://github.com/rjanke/thepitofknowledge/blob/main/pages/:path',
+      text: 'View this page on GitHub'
     },
 
     // Outputs: "Last updated: Sep 21, 2023, 9:15 AM"
