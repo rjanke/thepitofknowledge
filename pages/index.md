@@ -13,6 +13,7 @@ As the common phrase goes, "the more you learn, the less you know".
 My friends and I like to refer to this phenomena as, *the pit of knowledge*. It's both beautiful and terrifying - it just keeps *going*.
 
 This site is a collection of things I've found throughout my descent.
+
 ## Background
 My name is Ryan Janke and I'm a full stack web developer with an emphasis in database and backend design. I absolutely love learning, but learning to program has been one of the hardest things I've ever done in my life. My goal with this site is to share what I've learned in a concise, yet context-rich, way with the hope that it makes these concepts easier to learn or re-learn (hello to my future self).
 
