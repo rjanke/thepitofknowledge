@@ -23,3 +23,10 @@ As of 9/20/2023, this site is powered by [VitePress](https://vitepress.dev/) and
 With Godot, I'm particularly interested in the networking side of online-multiplayer games. Learning more about UDP has been blowing my mind.
 
 I'm also liable to post about 3D printing and 3D modeling.
+
+## Contributions
+If you see a mistake or otherwise think an article needs improvement, feel free to [create an issue](https://github.com/rjanke/thepitofknowledge/issues) and (if you think you have a fix) a [pull request](https://github.com/rjanke/thepitofknowledge/pulls) with your changes.
+
+## License
+All code samples and snippets are licensed under the public domain. View the [full license](/license.md).  
+Copyright © 2017-present Ryan Janke

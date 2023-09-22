@@ -27,3 +27,8 @@ docker-compose down
 ```bash
 docker-compose build --no-cache
 ```
+
+## License
+[License]()
+
+Copyright © 2017-present Ryan Janke (rjanke)
