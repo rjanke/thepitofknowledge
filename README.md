@@ -27,8 +27,10 @@ docker-compose down
 ```bash
 docker-compose build --no-cache
 ```
+## Contributions
+If you see a mistake or otherwise think an article needs improvement, feel free to [create an issue](https://github.com/rjanke/thepitofknowledge/issues) and (if you think you have a fix) create a [pull request](https://github.com/rjanke/thepitofknowledge/pulls) with your changes.
 
 ## License
-[License]()
+All code samples and snippets are licensed under the public domain. View the [full license](https://github.com/rjanke/thepitofknowledge/blob/main/pages/license.md).
 
 Copyright © 2017-present Ryan Janke (rjanke)

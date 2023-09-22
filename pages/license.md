@@ -1,18 +1,19 @@
 # License
-This document outlines the license used in various parts of the Project.
+This document outlines the license used in various parts of this project.
 
-## Website Pages & Content
+## Website Content & Pages
 Unless otherwise noted, the following applies to all:
 - Pages
 - Page content (including text and images)
-- Project name, site name, and site logo
+- Site name and site logo
 
 ```
 Copyright © 2017-present Ryan Janke (rjanke)
 ```
+
 ## Code Samples & Snippets
 Unless otherwise noted, the following applies to all code 
-samples and snippets present in the Project.
+samples and snippets present in this project.
 
 ```
 This is free and unencumbered software released into the public domain.
