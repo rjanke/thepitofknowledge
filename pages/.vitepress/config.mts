@@ -122,7 +122,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       base: '/python/',
       items: [
-        { text: 'Automated website logins', link: '' }
+        { text: 'Automating Website Logins & Maintenance with Selenium', link: 'automating-website-logins-maintenance-selenium' }
       ]
     },
     { text: 'VitePress Reference', link: 'vitepress-reference' }
