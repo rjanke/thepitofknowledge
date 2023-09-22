@@ -5,8 +5,12 @@ description: A reference page for some of the default theme features of VitePres
 # VitePress Reference
 {{ $frontmatter.description }}
 
-## Markdown Extensions
-[Markdown Extensions](https://vitepress.dev/guide/markdown)
+## Quick Links
+#### [VitePress Guide](https://vitepress.dev/guide/what-is-vitepress)
+#### [Markdown Extensions](https://vitepress.dev/guide/markdown)
+#### [Asset Handling](https://vitepress.dev/guide/asset-handling)
+#### [Frontmatter](https://vitepress.dev/guide/frontmatter)
+#### [Site Config](https://vitepress.dev/reference/site-config)
 
 ## Custom Containers
 ### Defaults
@@ -121,7 +125,7 @@ export default {
 }
 ```
 
-## Other Useful Features
+## Other Features
 #### [Import Code Snippets](https://vitepress.dev/guide/markdown#import-code-snippets)  
 #### [Code Groups](https://vitepress.dev/guide/markdown#code-groups)  
 #### [Markdown File Inclusion](https://vitepress.dev/guide/markdown#markdown-file-inclusion)  
