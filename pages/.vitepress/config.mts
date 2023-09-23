@@ -97,27 +97,6 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
-      text: 'Linux',
-      collapsed: true,
-      base: '/linux/',
-      items: [
-        { text: 'Cron Jobs', 
-        collapsed: true,
-        items: [
-          { text: 'test nested', link: ''}
-        ]
-      }
-      ]
-    },
-    {
-      text: 'PHP',
-      collapsed: true,
-      base: '/php/',
-      items: [
-        { text: 'Local PHP Dev', link: '' }
-      ]
-    },
-    {
       text: 'Python',
       collapsed: true,
       base: '/python/',

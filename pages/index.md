@@ -25,7 +25,7 @@ With Godot, I'm particularly interested in the networking side of online-multipl
 I'm also liable to post about 3D printing and 3D modeling.
 
 ## Contributions
-If you see a mistake or otherwise think an article needs improvement, feel free to [create an issue](https://github.com/rjanke/thepitofknowledge/issues) and (if you think you have a fix) create a [pull request](https://github.com/rjanke/thepitofknowledge/pulls) with your changes.
+If you see a mistake or otherwise think an article needs improvement, feel free to [create an issue](https://github.com/rjanke/thepitofknowledge/issues) and (if you think you have a fix) create a [pull request](https://github.com/rjanke/thepitofknowledge/pulls) with your changes. Any input is highly appreciated, thank you!
 
 ## License
 All code samples/snippets are licensed under the public domain. View the [full license](/license.md).
