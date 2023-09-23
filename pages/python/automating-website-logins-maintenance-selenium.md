@@ -557,7 +557,7 @@ You'll notice this creates a new file in the root of your project called ```requ
 
 In the ```requirements.txt``` file you should see something like this.
 
-```text
+```txt
 selenium==3.141.0
 urllib3==1.25.6
 ```
