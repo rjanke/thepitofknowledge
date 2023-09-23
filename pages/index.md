@@ -28,6 +28,6 @@ I'm also liable to post about 3D printing and 3D modeling.
 If you see a mistake or otherwise think an article needs improvement, feel free to [create an issue](https://github.com/rjanke/thepitofknowledge/issues) and (if you think you have a fix) create a [pull request](https://github.com/rjanke/thepitofknowledge/pulls) with your changes.
 
 ## License
-All code samples and snippets are licensed under the public domain. View the [full license](/license.md).
+All code samples/snippets are licensed under the public domain. View the [full license](/license.md).
 
 Copyright © 2017-present Ryan Janke (rjanke)

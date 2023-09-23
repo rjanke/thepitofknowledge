@@ -13,7 +13,7 @@ Copyright © 2017-present Ryan Janke (rjanke)
 
 ## Code Samples & Snippets
 Unless otherwise noted, the following applies to all code 
-samples and snippets present in this project.
+samples/snippets present in this project.
 
 ```
 This is free and unencumbered software released into the public domain.
