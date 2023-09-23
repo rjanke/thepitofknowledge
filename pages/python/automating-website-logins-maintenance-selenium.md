@@ -1,5 +1,5 @@
 ---
-description: How to automate website logins and maintencane with Selenium for Python.
+description: How to automate website logins and maintenance with Selenium for Python.
 ---
 
 # Automating Website Logins & Maintenance with Selenium for Python
@@ -10,7 +10,6 @@ Tested with <Badge type="tip" text="Python 3.6" />
 This article was originally written in 2019 and may be outdated. It's currently under review.
 :::
 
-
 ## Web Automation
 You can use the [Selenium WebDriver](https://www.seleniumhq.org/projects/webdriver/) framework to access websites programmatically. You'll learn how to use Selenium to login to a website (plus avoid bot detection!), navigate to a new page, check a checkbox, and then save the change. 
 
@@ -19,7 +18,7 @@ I'll be using a local [Drupal](https://www.drupal.org/) (CMS) install as a demo,
 Now, let's learn some web automation techniques.  
 
 ## High-level Overview
-Here's a high-level overview of what we'll acomplish in this article.
+Here's a high-level overview of what we'll accomplish in this article.
 - Create a Python virtual environment
 - Open a Chrome browser window controlled by the script
 - Login to a site
@@ -563,7 +562,7 @@ selenium==3.141.0
 urllib3==1.25.6
 ```
 
-## Install Project Dependecies
+## Install Project Dependencies
 
 If you'd like to install these dependencies with one command in a new project that has a freshly activated virtual environment, run the following command.
 
